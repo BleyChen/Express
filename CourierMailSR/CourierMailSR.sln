@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierMailSR.Web", "CourierMailSR.Web\CourierMailSR.Web.csproj", "{1A08C2DC-E4C2-44FE-94BA-96CA19FD7DFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierMailSR.Data", "CourierMailSR.Data\CourierMailSR.Data.csproj", "{958B8C72-2A0B-4692-BBF9-A1D22E4CE740}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CourierMailSR.DataClient", "CourierMailSR.DataClient\CourierMailSR.DataClient.csproj", "{D9114412-A019-4E48-B0BE-6FA137309165}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,27 +17,15 @@ Global
 		{1A08C2DC-E4C2-44FE-94BA-96CA19FD7DFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A08C2DC-E4C2-44FE-94BA-96CA19FD7DFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A08C2DC-E4C2-44FE-94BA-96CA19FD7DFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{958B8C72-2A0B-4692-BBF9-A1D22E4CE740}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{958B8C72-2A0B-4692-BBF9-A1D22E4CE740}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{958B8C72-2A0B-4692-BBF9-A1D22E4CE740}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{958B8C72-2A0B-4692-BBF9-A1D22E4CE740}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9114412-A019-4E48-B0BE-6FA137309165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9114412-A019-4E48-B0BE-6FA137309165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9114412-A019-4E48-B0BE-6FA137309165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9114412-A019-4E48-B0BE-6FA137309165}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65EB1D41-73A6-4678-917B-1CB747DF3E88}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://mspress.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = CourierMailSR.Web\\CourierMailSR.Web.csproj
-		SccProjectName1 = CourierMailSR.Web
-		SccLocalPath1 = CourierMailSR.Web
-		SccProjectUniqueName2 = CourierMailSR.Data\\CourierMailSR.Data.csproj
-		SccProjectName2 = CourierMailSR.Data
-		SccLocalPath2 = CourierMailSR.Data
 	EndGlobalSection
 EndGlobal

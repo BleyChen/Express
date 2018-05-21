@@ -1,4 +1,5 @@
-﻿using CourierMailSR.Data;
+﻿using CourierMailSR.DataClient;
+using CourierMailSR.DataClient.Models;
 using CourierMailSR.Web.Models;
 using System;
 using System.Collections.Generic;
@@ -53,7 +54,7 @@ namespace CourierMailSR.Web.Controllers
                     ReceiveTime = s.ReceiveTime.ToString("yyyy-MM-dd/hh:mm:ss"),
                     Status = s.Status.ToString(),
                     s.Signer,
-                    Signtime = string.IsNullOrEmpty(s.Signer) ? "" : s.Signtime.ToString("yyyy-MM-dd/hh:mm:ss"),
+                    Signtime = string.IsNullOrEmpty(s.Signer) ? "" : s.Signtime == null ? "" : s.Signtime.Value.ToString("yyyy-MM-dd/hh:mm:ss"),
                     s.Phone
                 }).ToList()
             }, JsonRequestBehavior.AllowGet);
@@ -160,7 +161,7 @@ namespace CourierMailSR.Web.Controllers
                     s.Name,
                     ReceiveTime = s.ReceiveTime.ToString("yyyy-MM-dd/hh:mm:ss"),
                     Status = s.Status.ToString(),
-                    SendTime = s.SendTime == DateTime.MinValue ? "" : s.SendTime.ToString("yyyy-MM-dd/hh:mm:ss"),
+                    SendTime = s.SendTime == DateTime.MinValue ? "" : s.SendTime == null ? "" : s.SendTime.Value.ToString("yyyy-MM-dd/hh:mm:ss"),
                     s.Phone
                 }).ToList()
             }, JsonRequestBehavior.AllowGet);

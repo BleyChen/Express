@@ -240,9 +240,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CourierMailSR.Data\CourierMailSR.Data.csproj">
-      <Project>{958b8c72-2a0b-4692-bbf9-a1d22e4ce740}</Project>
-      <Name>CourierMailSR.Data</Name>
+    <ProjectReference Include="..\CourierMailSR.DataClient\CourierMailSR.DataClient.csproj">
+      <Project>{d9114412-a019-4e48-b0be-6fa137309165}</Project>
+      <Name>CourierMailSR.DataClient</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

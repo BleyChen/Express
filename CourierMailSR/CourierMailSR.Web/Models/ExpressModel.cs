@@ -1,4 +1,5 @@
-﻿using CourierMailSR.Data;
+﻿using CourierMailSR.DataClient;
+using CourierMailSR.DataClient.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
