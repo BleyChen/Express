@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "mail sr Page";
+}
+
+<script type="text/javascript" src="~/Scripts/MailSR/ExpressReceive.js"></script>
+
+<div class="row">
+    <div class="row">
+        <div class="row" style="margin-top:50px;margin-right:10px;">
+            <label style="margin-left:20px;">ExpressNo or Phone:</label>
+            <input name="searchCondition" style="width:200px;" />
+            <button class="btn btn-danger btn-sm btn-searchExpressInfo">Search</button>
+            <button style="float:right;" class="btn btn-info btn-sm btn-addexpress">Add Express</button>
+       
+        </div>
+
+        <hr class="mt5 mb5" />
+        <div class="pn">
+            <table class="table table-striped table-reveiveexpress" id="reveiveexpressTables" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>Express No</th>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Receive Time</th>
+                        <th>Signer</th>
+                        <th>Sign time</th>
+                        <th>Status</th>
+                        <th>Operation</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <div>
+        @Html.Partial("_recordMailDialog")
+        @Html.Partial("_signExpress")
+    </div>
+
+</div>

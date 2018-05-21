@@ -1,0 +1,65 @@
+﻿<div class="modal fade modal-import-mail">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header" style="padding-bottom:0px;">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Express Receive</h4>
+            </div>
+            <div class="modal-body" style="max-height:600px;overflow-y:auto;">
+                <form class="form-horizontal admin-form" role="form">
+                    <div class="form-group form-inline">
+                        <label class="col-lg-3 control-label">Express No</label>
+                        <div class="col-lg-8">
+                            <div class="bs-component">
+                                <input name="ExpressNo" />
+                                <input name="ExpressType" type="hidden"  value="1"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-inline">
+                        <label class="col-lg-3 control-label">Name</label>
+                        <div class="col-lg-8">
+                            <div class="bs-component">
+                                <input name="Name" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-inline">
+                        <label class="col-lg-3 control-label">Phone</label>
+                        <div class="col-lg-8">
+                            <div class="bs-component">
+                                <input name="Phone" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group form-inline">
+                        <label class="col-lg-3 control-label">Express Type</label>
+                        <div class="col-lg-8">
+                            <div class="bs-component">
+                                <select name="MailType" style="height:30px;line-height:30px;width:120px;">
+                                    <option value="1" selected="selected">YuanTong</option>
+                                    <option value="2">Shengtong</option>
+                                    <option value="3">Cainiao</option>
+                                    <option value="4">JD</option>
+                                    <option value="5">Yunda</option>
+                                    <option value="6">Shunfeng</option>
+                                    <option value="7">EMS</option>
+                                    <option value="8">TianTian</option>
+                                    <option value="9">other</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+            <div class="modal-footer" style="margin-top:0px;">
+                <button type="button" class="btn btn-default btn-sm btn-lg" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger btn-sm btn-lg btn-submitExpressInfo">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
